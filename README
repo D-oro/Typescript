@@ -1,0 +1,22 @@
+needed to install ts-node so that node can run TypeScript files easily.
+found this: 
+https://github.com/TypeStrong/ts-node#command-line  
+
+# Locally in your project.
+npm install -D typescript
+npm install -D ts-node
+
+# Or globally with TypeScript.
+npm install -g typescript
+npm install -g ts-node
+
+# Depending on configuration, you may also need these
+npm install -D tslib @types/node
+
+
+
+and then to run it in the terminal:
+
+# Execute a script as `node` + `tsc`.
+ts-node script.ts
+
