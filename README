@@ -18,5 +18,5 @@ npm install -D tslib @types/node
 and then to run it in the terminal:
 
 # Execute a script as `node` + `tsc`.
-ts-node script.ts
+ts-node filename.ts
 
