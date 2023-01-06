@@ -24,3 +24,19 @@ function helloWorld(name = 'world'){
 
 helloWorld() // prints Hello world 
 helloWorld('Doro') // prints Hello Doro
+
+// we can also tell a function that we expect it to return a particular type
+
+function onePlusOne():number{
+    return 1+1
+}
+
+console.log(onePlusOne()) // prints 2 which is a number yay!
+
+// if a function doesnt return anything and we want to make sure it doesn't we can annotate 'void'
+function noReturn(a:number, b:number):void{
+    let result: number = a + b
+    console.log(result)
+}
+
+noReturn(1,3) //a console log is not the same as a return. the function does something, but it has no return statement.
